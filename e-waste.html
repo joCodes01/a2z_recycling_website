@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/clock.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <title>A2Z Recycling</title>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <a href="index.html">
+        <div class="logo-container">
+          <img class="logo" src="images/logo.svg" width="300px" />
+        </div>
+      </a>
+      <div id="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+
+      <div id="hamburger-dropdown" class="hidden">
+        <div class="hb-section">
+          <h2 class="hb-heading">How to recycle</h2>
+          <ul>
+            <li class="hb-li"><a href="e-waste.html">e-waste</a></li>
+            <li class="hb-li">
+              <a href="household.html">Household recycling</a>
+            </li>
+            <li class="hb-li">
+              <a href="business.html">Business recycling</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hb-section">
+          <h2 class="hb-heading">Learn more</h2>
+          <ul>
+            <li class="hb-li"><a href="">Events and news</a></li>
+            <li class="hb-li">
+              <a href="projects.html">Projects and partnerships</a>
+            </li>
+            <li class="hb-li">
+              <a href="resources.html">Educational resources</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hb-section">
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="hb-section pp">
+          <ul>
+            <li><a href="privacy.html">Privacy policy</a></li>
+            <li>
+              <a href="accessibility.html">Accessibility statement</a>
+            </li>
+            <li>
+              <a href="termsandconditions.html">Terms and conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <ul class="nav-items">
+        <li>
+          <a href="" class="nav-info current-page">How to recycle</a>
+          <div id="howTo" class="nav-dropdown hidden">
+            <ul class="nav-dropdown-list" id="dd">
+              <li><a href="e-waste.html">e-waste</a></li>
+              <li><a href="household.html">Household recycling</a></li>
+              <li><a href="business.html">Business recycling</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="" class="nav-info">Learn more</a>
+          <div id="learnMore" class="nav-dropdown hidden">
+            <ul class="nav-dropdown-list">
+              <li><a href="events.html">Events and news</a></li>
+              <li>
+                <a href="projects.html">Projects and partnerships</a>
+              </li>
+              <li><a href="resources.html">Educational resources</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="top-components">
+      <div class="clock-container">
+        <span id="clock">00:00 </span>
+      </div>
+      <div class="search-container">
+        <form>
+          <label for="search">Search</label>
+          <input type="text" id="search" value="" name="search" />
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <section class="section-main section-e-waste">
+        <h1>e-waste</h1>
+      </section>
+    </main>
+    <nav class="nav-footer">
+      <ul class="nav-items">
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="termsandconditions.html">Terms & conditions</a></li>
+        <li><a href="accessibility.html">Accessibility statement</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
