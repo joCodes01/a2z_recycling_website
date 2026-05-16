@@ -6,15 +6,6 @@
   font-weight: 400;
   src: url("../fonts/ibm-plex-mono-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* ibm-plex-mono-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "IBM Plex Mono";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/ibm-plex-mono-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 /* manrope-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -22,24 +13,6 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/manrope-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* manrope-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/manrope-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* manrope-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/manrope-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* manrope-700 - latin */
@@ -50,18 +23,6 @@
   font-weight: 700;
   src: url("../fonts/manrope-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
-/* manrope-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/manrope-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* * {
-  border: 1px solid red;
-} */
 
 :root {
   --color-brand: #1b6530;
@@ -425,6 +386,16 @@ li {
 .contact-us {
   height: 100%;
   padding: 3rem;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-us p {
+  color: var(--color-grey-5);
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
 }
 .image-about-us,
 .image-contact-us {
