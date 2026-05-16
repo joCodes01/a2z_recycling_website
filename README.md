@@ -7,5 +7,6 @@
 - I looked up JavaScript code to help with the dropdown menu.
 - I have used AI to generate the textual content for this website project based on my design ideas.
 - I also used AI to help me generate copyright free newly generated graphics for the webbsite but still had to fix them up them in photoshop/illustrator.
+- The images are free to use from the pexels website (https://www.pexels.com/license/).
 
 Joanna Wand
