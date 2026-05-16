@@ -1,6 +1,6 @@
 # a2z_recycling_website
 
-The purpose of this project was to improve my CSS layout skills, design implementation and animation. It is a simple HTML and CSS website with a small amount of JavaScript.
+The purpose of this project was to improve my CSS skills, design implementation and animation. It is a simple HTML and CSS website with a small amount of JavaScript.
 
 ## Link to website
 
