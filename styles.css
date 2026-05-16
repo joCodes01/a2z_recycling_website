@@ -395,7 +395,7 @@ li {
 .contact-us p {
   color: var(--color-grey-5);
   font-size: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .image-about-us,
 .image-contact-us {
@@ -556,7 +556,7 @@ li {
 
 @keyframes conveyer {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-80%);
   }
   to {
     transform: translateX(100%);
